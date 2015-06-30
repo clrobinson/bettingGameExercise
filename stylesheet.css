@@ -12,6 +12,37 @@ body {
   padding: 15px 15px 15px 15px;
 }
 
+#bet {
+}
+
+.play-box {
+  text-align: center;
+  font-size: 90px;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+#guess {
+  float: left;
+  background-color: #cccccc;
+  border: none;
+}
+
+#num-to-guess {
+  float: right;
+  background-color: #cccccc;
+}
+
+.play-area {
+  background-color: #c5eee4;
+  height: 300px;
+}
+
 .line-item {
   margin: 15px 15px 15px 15px;
+}
+
+.clear {
+  clear: both;
 }
