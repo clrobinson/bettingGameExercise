@@ -1,0 +1,17 @@
+body {
+  margin: 0 0 0 0;
+}
+
+#main-container {
+  margin: auto;
+  width: 600px;
+}
+
+#header {
+  background-color: #f6eed2;
+  padding: 15px 15px 15px 15px;
+}
+
+.line-item {
+  margin: 15px 15px 15px 15px;
+}

@@ -2,10 +2,30 @@
 <html>
 <head>
   <title>Betting Game</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="jquery-main.js"></script>
 </head>
 <body>
-  <p>Stuff should be happening...</p>
-  <script src="script.js"></script>
+  <div id="main-container">
+    <div id="header">
+      <span id="money-label">Current Money:</span>
+      <span id="money-value">100</span>
+    </div>
+    <div class="line-item">
+      <input type="text" name="bet" id="bet"></input>
+      <label>Bet</label>
+    </div>
+    <div class="line-item">
+      <input type="text" name="guess" id="guess"></input>
+      <label>Guess</label>
+    </div>
+    <div class="line-item">
+      <button name="submit" id="submit">Gamble!</button>
+    </div>
+    <div class="line-item">
+      <span id="game-results"></span>
+    </div>
+  </div>
 </body>
 </html>
